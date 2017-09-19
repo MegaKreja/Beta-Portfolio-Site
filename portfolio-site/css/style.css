@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#home {
+  height: 100vh;
+  background: url("http://orig03.deviantart.net/ad59/f/2016/176/3/c/neon_sunset_by_axiomdesign-d9cs997.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+.nav {
+  list-style: none;
+  padding: 130px 0 20px 0;
+  text-align: center;
+}
+.nav li {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.nav li .desnop {
+  padding-right: 180px;
+}
+.nav li .levop {
+  padding-left: 180px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #D11665;
+  font-family: Orbitron;
+  font-weight: bold;
+}
+.nav li a:hover {
+  color: white;
+}
+.natpis p {
+  color: #FBBF0C;
+  font-size: 40px;
+  font-family: Orbitron, Arial;
+  font-weight: bold;
+  margin: 0 auto;
+  text-shadow: 12px 12px 14px #000000;
+  letter-spacing: 10px;
+/*   transform: rotateY(50deg); */
+}
+.natpis {
+/*   padding-top: 20%; */
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+#about {
+  height: 100vh;
+  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-298019.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#about h1 {
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-family: Orbitron, Arial;
+  text-decoration: underline;
+  color: #11286F;
+  font-size: 50px
+}
+#about p {
+  padding-top: 300px;
+  color: #D34A56;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Orbitron, Arial;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 25px;
+}
+#portfolio {
+  height: 100vh;
+  background: url("http://i.imgur.com/hFfAJLT.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+#portfolio h1 {
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-family: Orbitron, Arial;
+  text-decoration: underline;
+  color: white;
+  font-size: 50px
+}
+.gallery {
+  margin: 0 auto;
+}
+#portfolio img {
+  width: 250px;
+  padding-left: 10px;
+  padding-top: 150px;
+  border-radius: 50%;
+}
+#portfolio img:hover {
+  border-radius: 0;
+  transition: 0.5s;
+}
+#contact {
+  height: 100%;
+  background: #341647;
+  color: white;
+  font-family: Orbitron, Arial;
+  font-size: 30px;
+}
